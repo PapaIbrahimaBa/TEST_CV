@@ -9,10 +9,16 @@ import Compe from './competence'
 
 function App() {
   return(
-    <div className="container py-4" style={{maxWidth : "700px"}}>
-      <Perso/>
-      <Compe/>
-      <Exper/>
+   <div className="container py-4" style={{maxWidth : "700px"}}>
+      <div className="row">
+        <Perso/>
+        <div className="col-md-6">
+          <Compe/>
+        </div>
+        <div className="col-md-6">
+          <Exper/>
+        </div>
+      </div>  
     </div>
   );
   // const [count, setCount] = useState(0)

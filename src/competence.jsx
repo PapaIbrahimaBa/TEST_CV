@@ -1,14 +1,14 @@
 export default function Compe() {
     return (
-        <div className="fw-bold">
+        <div className="d-flex flex-wrap gap-2">
             <h2> MES COMPETENCES </h2>
-            <p>Debute en REACT JS</p>
-            <p>Certaines notions en Html</p>
-            <p>Certaines notions en CSS</p>
-            <p>Certaines notions en JS</p>
-            <p>Certaines notions en C</p>
-            <p>Certaines notions en Python</p>
-            <p>Autres</p>
+            <span className="badge bg-primary">Débute en REACT JS</span>
+            <span className="badge bg-success">Certaines notions en Html</span>
+            <span className="badge bg-info text-black">Certaines notions en CSS</span>
+            <span className="badge bg-warning">Certaines notions en JS</span>
+            <span className="badge bg-danger">Certaines notions en C</span>
+            <span className="badge bg-secondary">Certaines notions en python</span>
+            <span className="badge bg-primary">...Autres</span>
         </div>
     );
 }

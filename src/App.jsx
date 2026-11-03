@@ -9,10 +9,11 @@ import Compe from './competence'
 
 function App() {
   return(
-   <div className="container py-4" style={{maxWidth : "700px"}}>
+   <div className="container py-4" style={{maxWidth : 800}}>
       <div className="row">
         <Perso/>
-        <div className="col-md-6">
+        <hr />
+        <div className="col-md-6"> 
           <Compe/>
         </div>
         <div className="col-md-6">
